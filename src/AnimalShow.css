@@ -1,0 +1,63 @@
+.animal-show {
+  position: relative;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 3px 4px lightgray;
+}
+
+.animal {
+  height: 200px;
+}
+
+.heart {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+/* 
+
+import { useState } from "react";
+
+export default function Form() {
+  // const [firstName, setFirstName] = useState("");
+  // const [lastName, setLastName] = useState("");
+  const [name, setName] = useState({
+    firstName: "",
+    lastName: ""
+  });
+
+  function handleNameChange({ target: { value, name } }) {
+    setName((prevValue) => ({ ...prevValue, [name]: value }));
+  }
+
+  function handleReset() {
+    setName({
+      firstName: "",
+      lastName: ""
+    });
+  }
+
+  return (
+    <form onSubmit={(e) => e.preventDefault()}>
+      <input
+        placeholder="First name"
+        value={name.firstName}
+        onChange={handleNameChange}
+        name="firstName"
+      />
+      <input
+        placeholder="Last name"
+        value={name.lastName}
+        onChange={handleNameChange}
+        name="lastName"
+      />
+      <h1>
+        Hi, {name.firstName} {name.lastName}
+      </h1>
+      <button onClick={handleReset}>Reset</button>
+    </form>
+  );
+} */
